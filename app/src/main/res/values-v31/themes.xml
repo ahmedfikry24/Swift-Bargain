@@ -1,16 +1,12 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-
-    <style name="Base.Theme.SwiftBargain" parent="Theme.Material3.Light.NoActionBar">
-
-    </style>
-
-    <style name="Theme.SwiftBargain" parent="Base.Theme.SwiftBargain" />
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
     <style name="mainActivityTheme" parent="Theme.SwiftBargain">
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:statusBarColor">@color/background</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:windowBackground">@drawable/launcher_background</item>
+        <item name="android:windowSplashScreenBackground">@color/primary</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
     </style>
 </resources>
