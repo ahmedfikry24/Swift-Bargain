@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="mainActivityTheme" parent="Base.Theme.SwiftBargain">
+    <style name="mainActivityTheme" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Base.Theme.SwiftBargain</item>
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:statusBarColor">@color/background</item>
         <item name="android:windowLightStatusBar">true</item>
